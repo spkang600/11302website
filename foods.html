@@ -17,6 +17,7 @@
 	float: left;
 	height: 600px;
 	width: 1000px;
+	overflow: auto;
 }
 #item {
 	float: right;
@@ -46,6 +47,16 @@
 	float: left;
 	height: 50px;
 	width: 1280px;
+}
+.titlestyle {
+	font-family: "微軟正黑體 Light";
+	font-size: 24px;
+	color: #069;
+	text-align: center;
+}
+.textstyle {
+	font-family: "微軟正黑體 Light";
+	font-size: 18px;
 }
 </style>
 <link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css">
@@ -55,7 +66,40 @@
 <body>
 <div id="container">
   <div id="header"><img src="images/banner_food02.jpg" width="1280" height="150"></div>
-  <div id="article"> id "article" 的內容放在這裡</div>
+  <div id="article">
+    <table width="813" height="244" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td colspan="2" bgcolor="#FFCC00" class="titlestyle">嘉義雞肉飯</td>
+      </tr>
+      <tr>
+        <td width="508"><p class="textstyle">據嘉義當地耆老口述，最早源於民國38年，「第一商場」的元老店家師傅林添壽，偶發奇想之下，將拜拜時買的雞肉(當時是用肉雞)，切絲放在白飯上，淋上滷汁成為雞肉飯後，覺得口感獨特，正式在中山路上賣起雞肉飯。爾後演進改良，成為最接近民眾喜愛口感的火雞肉飯。其中美味的關鍵取決於<strong>火雞肉、米飯、醬汁、油蔥酥</strong>的絕妙組合，色澤油亮誘人，香氣撲鼻更讓人食指大動，更曾獲得農糧署票選「<strong>台灣十大招牌飯」的第一名</strong>。</p>
+        <p class="textstyle">資料來源：嘉義市觀光旅遊網</p></td>
+        <td width="305"><img src="images/rice.jpg" width="305" height="199"></td>
+      </tr>
+      <tr>
+        <td colspan="2" bgcolor="#CCFFFF" class="titlestyle">Nose man鼻孔先生手作早午餐</td>
+      </tr>
+      <tr>
+        <td><p class="textstyle">餐點品項有三明治、漢堡、厚片吐司、點心與飲料，以及西式早餐店不常見的粉漿蛋餅。價位從單點最低15元，到195元特製拼盤，豐儉由人。老闆娘說，設定親民價格，是將心比心提供客人「每天都可負擔的早餐」選擇。<br>
+          <br>
+          熱賣餐點除了蛋餅，還有招牌花醬手拍豬排三明治，創業至今，堅持肉排手打斷筋，吃過就知道口感不同。</p>
+          <p class="textstyle"> 嘉義市東區成仁街273-1號05 275 8110</p>
+        <p class="textstyle">08:00 – 14:30，週三公休</p></td>
+        <td><img src="images/brunch.jpg" width="300" height="200"></td>
+      </tr>
+      <tr>
+        <td colspan="2" bgcolor="#CCCCFF" class="titlestyle">特色伴手禮</td>
+      </tr>
+      <tr>
+        <td><p class="textstyle">方塊土司是網路人氣團購美食，堅持每日現烤出爐新鮮配送，熱門口味經常迅速完售，想吃還要看運氣。</p>
+          <p class="textstyle">方塊土司獨創大小剛好，可一手掌握的迷你土司，並發揮創意填入餡料，讓吃土司變得更有情趣。還研發出嘉義專屬風味，如：豆漿豆花、沙鍋魚頭、古早味肉鬆、茶、咖啡等獨創口味。無論自用嚐鮮、或當伴手禮送人，都有「嘉義，到此一遊」的感覺。</p>
+          <p class="textstyle"> 最暢銷的口味，除了：芋頭、鮮奶、奶酥、巧克力等基本款，還有「嘉義肉鬆拔絲奶皇」，特製發酵酥皮將肉鬆、鹹蛋黃、赤豆沙和麻糬包裹在迷你方塊土司中，滋味豐富，還有爆漿感，被稱為「方形的蛋黃酥」。</p>
+          <p> <span class="textstyle">嘉義市東區中正路365號05 222 9218</span></p>
+        <p class="textstyle">14:00 – 21:00，週二公休</p></td>
+        <td><img src="images/toast.jpg" width="300" height="269"></td>
+      </tr>
+    </table>
+  </div>
   <div id="item">
     <ul id="MenuBar1" class="MenuBarVertical">
       <li><a href="foods.html">探訪美食</a>      </li>
